@@ -1,4 +1,4 @@
-# Version-Control Tool in Java
+# Gitlet: Version-Control Tool in Java
 
 A streamlined version-control tool mirroring key features of Git, implemented in Java. This tool supports operations like directory commits, precise commit retrievals, and branching, showcasing proficiency in data structures, system design, and version control methodologies.
 
