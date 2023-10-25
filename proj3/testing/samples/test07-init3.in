@@ -1,0 +1,15 @@
+# A acceptance test to do addtion, commit, and then changing the values in the file and check out..
+> init
+<<<
++ check.txt check.txt
+> add check.txt
+<<<
+> commit "check has been commited, now check for change later"
+<<<
++ check.txt doublecheck.txt
+# we want this to differ
+> checkout -- check.txt
+<<<
+= check.txt check.txt
+## this test is for checking the basic commands for the gitlet project.
+## this commands include checkout init and commit, which took me a long time
